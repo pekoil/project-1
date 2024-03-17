@@ -4,7 +4,56 @@
     <meta charset="UTF-8">
     <title>Project1</title>
 </head>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bgimg {
+        background-image: url('imgs/pippi.png'),linear-gradient(plum,mediumorchid);
+        height: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+    }
+
+    .top{
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+
+    .middle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+</style>
 <body>
+
+<div class="bgimg">
+    <div class="top">
+        <h1> Please refresh or try it later </h1>
+    </div>
+    <div class="middle">
+    </div>
+    <div class="bottom">
+    </div>
+</div>
 
 </body>
 </html>
